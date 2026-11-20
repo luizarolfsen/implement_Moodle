@@ -69,6 +69,8 @@ RUN docker-php-ext-install \
     intl \
     # Driver PDO para PostgreSQL (conexão com o banco de dados)
     pdo_pgsql \
+    # Driver nativo PostgreSQL (exigido pelo instalador web do Moodle)
+    pgsql \
     # Processamento de imagens (thumbnails, avatares de usuários)
     gd \
     # Cache de opcodes PHP (melhora performance de produção)
